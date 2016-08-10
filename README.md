@@ -1,5 +1,5 @@
 # Java-P2P-app
 java based P2P file sync app:
 create two directories at first, name them whatever you like.such as "sync_active" and "sync_passive".
-compile java programs provided, run the TCPPassive at first with the command:"java TCPPassivePeer <path> "
-then run the TCPActivePeer with similar command as above(modify the path according the filename created.) Command format for running TCPActivePeer: java TCPActivePeer IP address of PassivePeer <path>
+compile java programs provided, run the TCPPassive at first with the command:"java TCPPassivePeer folder_path "
+then run the TCPActivePeer with similar command as above(modify the path according the filename created.) Command format for running TCPActivePeer:" java TCPActivePeer IP address of PassivePeer folder_path"
